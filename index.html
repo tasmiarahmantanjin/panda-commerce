@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>E Commerce Website</title>
 </head>
+
 <body>
-	
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Shoes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Backpack</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- add carousal  -->
+	<div class="container">
+		<div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+			<div class="carousel-inner">
+				<!-- 1st image -->
+				<div class="carousel-item active">
+					<div class="row align-items-center">
+						<div class="col-md-7">
+							<h1>Mega LCD TV for 4K movie</h1>
+							<p>This is the best TV on earth to watch 4k Movies</p>
+							<h1 class="price">1200$</h1>
+							<button class="button-buy-now">Buy Now</button>
+						</div>
+						<div class="col-md-5">
+							<img src="images/banner-images/tv.png" class="d-block w-100" alt="headphone">
+						</div>
+					</div>
+					<!-- 2nd image -->
+				</div>
+				<div class="carousel-item">
+					<div class="row align-items-center">
+						<div class="col-md-7">
+							<h1>World Best Headphone</h1>
+							<p>This is the best TV on earth to watch 4k Movies</p>
+							<h1 class="price">400$</h1>
+							<button class="button-buy-now">Buy Now</button>
+						</div>
+						<div class="col-md-5">
+							<img src="images/banner-images/headphone.png" class="d-block w-100" alt="tv">
+						</div>
+					</div>
+				</div>
+				<!-- 3rd image -->
+				<div class="carousel-item">
+					<div class="row align-items-center">
+						<div class="col-md-7">
+							<h1>Xbox Ultimate</h1>
+							<p>Your best partner in your living room</p>
+							<h1 class="price">500$</h1>
+							<button class="button-buy-now">Buy Now</button>
+						</div>
+						<div class="col-md-5">
+							<img src="images/banner-images/xbox.png" class="d-block w-100" alt="xbox">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- end of carousal item -->
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</a>
+	</div>
+	</div>
+	<!-- add catagories -->
+	<div class="container catagories">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="d-flex justify-content-between align-items-center cat1">
+					<h1>Watch</h1>
+					<img src="images/categories/watch.png" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="d-flex justify-content-between align-items-center cat2">
+					<h1>Bag</h1>
+					<img src="images/categories/bag.png" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="d-flex justify-content-between align-items-center cat3">
+					<h1>Shoes</h1>
+					<img src="images/categories/shoes.png" alt="">
+				</div>
+			</div>
+
+
+		</div>
+
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
