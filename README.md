@@ -3,4 +3,4 @@ A simple e-commerce website design using HTML, CSS & Bootstrap
 
 ### Wanna Check my cool website? Please click the link below
 
-(tasmiarahmantanjin/panda-commerce)
+[Panda commerce](https://tasmiarahmantanjin.github.io/panda-commerce/)
