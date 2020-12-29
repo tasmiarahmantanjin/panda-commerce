@@ -61,3 +61,15 @@
 	background-color: white;
 	border-top: none;
 }
+
+#contactus {
+	height: 300px;
+}
+
+#contactus h6 {
+	color: gray;
+}
+
+footer {
+	text-align: center;
+}
